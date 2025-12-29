@@ -1,0 +1,338 @@
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  filter: drop-shadow(3px 3px 100px rgba(0, 0, 0, 0.7));
+  float: right;
+  margin-left: 10px; 
+  box-shadow: 0 0 5px #ff00ff, 0 0 50px #ff00ff, 0 0 20px #ff00ff;
+    opacity: 1; 
+    filter: brightness(150%);
+}
+
+
+div {
+  width: 70%;
+  margin-left: 0%;
+  margin-right: 0%;
+  top: 10;
+}
+
+  input{
+  background-color: transparent;
+  font-size: 18px;
+  opacity: 1.5;
+  width: 300px;
+  height: 30px;
+  border-radius: 15px;
+background-color: rgba(255, 255, 255, 0.2); 
+backdrop-filter: blur(5px);
+margin-top: 5px;
+  }
+   
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color:  #766666;
+    filter: drop-shadow(1px 1px 3px #ff00ff);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 10px #888888;
+  height: 40px;
+  width: 300px ;
+}
+
+button {
+  background-color: transparent;
+  font-size: 18px;
+  opacity: 1.5;
+  width: 200px;
+  height: 30px;
+  border-radius: 15px;
+background-color: rgba(255, 255, 255, 0.2); 
+backdrop-filter: blur(5px);
+width: 40%;
+      text-align: flex;  
+      margin-left: 70px;
+      margin-right: 80%;
+      font-family: "Times New Roman", serif;
+      color:  #000000;
+}
+
+
+.code{
+    background-image: url('/361c3bec9b72f88de1dbf63ac27d17e1.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+  }
+  
+input::placeholder {
+  color:  #000000;
+  opacity: 1; 
+  font-family: "Times New Roman", serif;
+}
+
+
+.container {
+  position: relative;
+}
+
+label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  transition: all 0.3s ease; 
+}
+
+input:focus + label {
+  top: -15px; 
+  left: 5px;
+  font-size: 12px;
+  background-color: white; 
+  padding: 0 5px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #ff00ff;
+}
+-------------------------------------{}
+.boy{
+ font-family: "poppins", sans-serif;
+ min-height: 200vh;
+ background: linear-gradient(135deg, #0b2225, #203a43, #2dc1c9 );
+}
+h1 {
+  background-color: #FFFFFFAB;
+  color: #000000;
+    background: linear-gradient(to right, rgb(183, 62, 238), rgb(156, 249, 247));
+text-align: center;
+border-radius: 10px;
+  opacity: 20; 
+font-family: "Times New Roman", serif;
+}
+
+
+.card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right, rgb(183, 62, 238), rgb(156, 249, 247));
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  margin: 20px;
+  padding: 20px;
+  width: 450px;
+  font-family: "Berkshire Swash", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@keyframes floatAnimation {
+  0%,
+  100% {
+    transform: translateY(0);
+    filter: drop-shadow(0px 5px 5px rgba(255, 255, 255, 0.5));
+  }
+  50% {
+    transform: translateY(-10px);
+    filter: drop-shadow(0px 20px 15px rgba(255, 255, 255, 0.5));
+  }
+}
+
+.image {
+  text-align: center;
+  width: 200px;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  animation: floatAnimation 3s ease-in-out infinite;
+}
+
+.heading {
+  text-align: center;
+  width: 100%;
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #1b1b1b;
+  font-weight: 600;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.icons {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  padding: 10px 0;
+}
+
+.icons a {
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+}
+
+.icons a:hover {
+  text-align: center;
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.icons svg {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  transition: transform 0.2s ease-in-out;
+  color: #fff;
+  border-radius: 50px;
+  padding: 5px;
+  filter: drop-shadow(0 0 10px rgb(255, 255, 255));
+}
+------------------------{}-------------------------{}
+
+
+@keyframes fade {
+  0% { opacity: 0; } 
+  50% { opacity: 1; } 
+  100% { opacity: 0; }
+}
+
+
+.animated-image {
+width: 200px; 
+height: auto;
+animation-name: fade;
+animation-duration: 4s; 
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+
+position: absolute;
+  top: 81%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+p {
+   position: absolute;
+   top: 720px;
+  right: 10px;
+  text-align: center;
+  font-family: "Satisfy", cursive;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.animated {
+  width: 200px; 
+  height: auto;
+animation-name: fade;
+animation-duration: 4s; 
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+
+position: absolute;
+  top: 125%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.marwan{
+   position: absolute;
+   top: 1050px;
+  right: 10px;
+  text-align: center;
+  font-family: "Satisfy", cursive;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.mix {
+   width: 200px; 
+  height: auto;
+animation-name: fade;
+animation-duration: 4s; 
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+
+position: absolute;
+  top: 170%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.nana {
+  position: absolute;
+   top: 1385px;
+  right: 10px;
+  text-align: center;
+  font-family: "Satisfy", cursive;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+.memo {
+  font-family: "poppins", sans-serif;
+ min-height: 98vh;
+ background: linear-gradient(135deg, #0b2225, #203a43, #2dc1c9 );
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px;
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-image {
+  border-radius: 50%;
+}
+.scrollable-box {
+  text-align: center;
+  color: #000;
+  font-size: 30px;
+    transform: translateY(-25px);
+}
+.my-text-element {
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  height: 100px;
+  transform: translateX(-130px);
+}
+
+.div{
+  display: inline-block;
+  padding: 10px 20px; 
+  background-color: #000000;
+  color: #FF9200;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: sans-serif;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 20px #0ff,
+               0 0 30px #0ff,
+               0 0 40px #0ff;
+}
+
+
+
